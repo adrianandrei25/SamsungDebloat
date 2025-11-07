@@ -28,7 +28,6 @@ adb shell pm uninstall -k --user 0 com.sec.android.app.kidshome
 
 #Disabling services
 adb shell pm disable-user --user 0 com.google.android.feedback
-adb shell pm disable-user --user 0 com.google.android.gms.feedback
 adb shell pm disable-user --user 0 com.samsung.android.aremoji
 adb shell pm disable-user --user 0 com.samsung.android.ardrawing
 adb shell pm disable-user --user 0 com.sec.android.mimage.avatarstickers
